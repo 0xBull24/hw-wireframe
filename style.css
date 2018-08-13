@@ -1,16 +1,11 @@
-* {
-    border: 1px solid black;
-}
-
 body {
     background-color: slategrey;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
     font-size: 18px;
-    overflow: auto;                                                                                                                                                                                             
 }
 
-header, nav, section, aside, footer, article, div, p {
+header, nav, section, aside, footer, article, p {
     padding: 40px;
     background-color: #eeeeee;
     text-align: center;
@@ -19,14 +14,27 @@ header, nav, section, aside, footer, article, div, p {
 
 #article {
     background-color: slategrey;
+    padding: 10px;
+}
+
+.shared {
+    height: 100%;
+    overflow: auto;
 }
 
 div {
-    background-color: #eeeeee;
+    background-color: slategrey;
 }
 
 section {
     float: left;
+    width: 60%;
 }
 
+aside {
+    min-height: 334px;
+}
 
+footer {
+    clear: both;
+}
