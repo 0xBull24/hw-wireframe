@@ -1,3 +1,7 @@
+/** {
+    border: 1px solid black;
+}*/
+
 body {
     background-color: slategrey;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -18,7 +22,6 @@ header, nav, section, aside, footer, article, p {
 }
 
 .shared {
-    height: 100%;
     overflow: auto;
 }
 
@@ -28,11 +31,11 @@ div {
 
 section {
     float: left;
-    width: 60%;
+    width: 50%;
 }
 
 aside {
-    min-height: 334px;
+    min-height: 315px;
 }
 
 footer {
