@@ -1,4 +1,4 @@
-/** {
+/* * {
     border: 1px solid black;
 }*/
 
@@ -7,9 +7,12 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
     font-size: 18px;
+    color: #777;
+    background-color: #777;
+    margin: auto;
 }
 
-header, nav, section, aside, footer, article, p {
+header, nav, section, aside, footer, p {
     padding: 40px;
     background-color: #eeeeee;
     text-align: center;
@@ -23,21 +26,36 @@ header, nav, section, aside, footer, article, p {
 
 .shared {
     overflow: auto;
-}
-
-div {
-    background-color: slategrey;
+    min-height: 100%;
+    display: flex;
 }
 
 section {
     float: left;
-    width: 50%;
+    width: 60%;
+}
+
+article {
+    color: #ebebeb;
+    background-color: #777;
+    padding: 10px;
+    margin-top: 25px;
 }
 
 aside {
-    min-height: 315px;
+    float: right;
+    width: 25%;
 }
 
-footer {
-    clear: both;
+article header, p {
+    color: #777;
+    background: #ebebeb;
+}
+
+section header {
+    font-weight: bold;
+}
+
+.article {
+    color: #ebebeb;
 }
